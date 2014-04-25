@@ -41,13 +41,47 @@
             float: left;
         }
 
-            .winter :before {
-                color: #BBBBBB;
-                content: "\51ac";
-            }
+        .winter :before {
+            color: #BBBBBB;
+            content: "\51ac";
+        }
 
         .cryogenics {
             float: right;
+        }
+
+        .bottom {
+            clear: both;
+            width: 500px;
+            margin: 50px auto;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            color: #999999;
+            font-family: 'Advent Pro', sans-serif;
+            font-size: 14px;
+            width: 250px;
+        }
+
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .hint {
+            float: left;
+        }
+
+        .links {
+            float: right;
+        }
+
+        li a:before {
+            content: "\2605";
         }
     </style>
     <script type="text/javascript" src="lib/impact/impact.js"></script>
@@ -55,13 +89,32 @@
 </head>
 <body>
     <div class="container">
-        <canvas width="640px" height="480px" id="canvas">Your browser doesn't seem to support Canvas. ;'(</canvas>
+        <canvas width="640" height="480" id="canvas">Your browser doesn't seem to support Canvas. ;'(</canvas>
         <p class="winter"><a href="http://winterday.net">Winterday.net</a></p>
 
         <p class="cryogenics">
             <a href="https://github.com/cryovat/ludum-dare-29">Cryovat/Ludum-dare-29.git</a>
             <a href="https://github.com/cryovat/ludum-dare-29/blob/master/COPYING">AGPL</a>
         </p>
+
+        <ul class="bottom">
+            <ul class="hint">
+                <li>Such documentation</li>
+                <li>Very amaze</li>
+            </ul>
+            <ul class="links">
+                <li>
+                    <a href="#TODO">
+                        "I'm in!" blog post
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=19066">
+                        Ludum Dare entry page
+                    </a>
+                </li>
+            </ul>
+        </ul>
     </div>
 
 </body>

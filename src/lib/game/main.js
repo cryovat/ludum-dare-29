@@ -3,11 +3,12 @@ ig.module(
 )
 .requires(
 	'impact.game',
-	'impact.font'
+	'impact.font',
+    'plusplus.core.plusplus'
 )
 .defines(function(){
 
-MyGame = ig.Game.extend({
+MyGame = ig.GameExtended.extend({
 	
 	// Load a font
 	font: new ig.Font( 'media/04b03.font.png' ),
@@ -40,6 +41,6 @@ MyGame = ig.Game.extend({
 
 // Start the Game with 60fps, a resolution of 320x240, scaled
 // up by a factor of 2
-ig.main( '#canvas', MyGame, 60, 320, 240, 2 );
+ig.main( '#canvas', MyGame, 60, 320, 240, 2, ig.LoaderExtended );
 
 });

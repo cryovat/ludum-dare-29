@@ -182,3 +182,6 @@ src/lib/impact
 src/lib/weltmeister
 src/lib/plugins/touch-button.js
 
+# Impact++
+
+src/lib/plusplus
