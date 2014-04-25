@@ -172,3 +172,13 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# ImpactJS
+
+src/game.min.js
+src/weltmeister.html
+src/tools
+src/lib/impact
+src/lib/weltmeister
+src/lib/plugins/touch-button.js
+
