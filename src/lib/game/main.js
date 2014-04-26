@@ -4,7 +4,13 @@ ig.module(
 .requires(
 	'impact.game',
 	'impact.font',
-    'plusplus.core.plusplus'
+    'impact.debug.debug',
+    'plusplus.core.plusplus',
+    'plusplus.debug.debug',
+
+    'game.entities.airSource',
+
+    'game.levels.test'
 )
 .defines(function(){
 
@@ -15,7 +21,9 @@ MyGame = ig.GameExtended.extend({
 	
 	
 	init: function() {
-		// Initialize your game here; bind keys etc.
+	    // Initialize your game here; bind keys etc.
+
+	    this.loadLevelDeferred(LevelTest);
 	},
 	
 	update: function() {
@@ -34,7 +42,7 @@ MyGame = ig.GameExtended.extend({
 		var x = ig.system.width/2,
 			y = ig.system.height/2;
 		
-		this.font.draw( 'It Works!', x, y, ig.Font.ALIGN.CENTER );
+		//this.font.draw( 'It Works!', x, y, ig.Font.ALIGN.CENTER );
 	}
 });
 

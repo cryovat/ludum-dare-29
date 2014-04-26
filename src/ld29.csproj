@@ -57,6 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\game\entities\airSource.js" />
+    <Content Include="lib\game\entities\diver.js" />
+    <Content Include="lib\game\entities\divingBell.js" />
+    <Content Include="lib\game\entities\scoreTracker.js" />
+    <Content Include="lib\game\entities\treasure.js" />
+    <Content Include="lib\game\ui\airMeter.js" />
     <Content Include="lib\plusplus\abilities\ability-damage.js" />
     <Content Include="lib\plusplus\abilities\ability-shoot.js" />
     <Content Include="lib\plusplus\abilities\ability.js" />
@@ -232,6 +238,10 @@
     <Content Include="lib\weltmeister\weltmeister.css" />
     <Content Include="lib\weltmeister\weltmeister.js" />
     <Content Include="media\04b03.font.png" />
+    <Content Include="media\divingbell.png" />
+    <Content Include="media\player.png" />
+    <Content Include="media\tiles.png" />
+    <Content Include="media\treasure.png" />
     <Content Include="Web.config" />
     <Content Include="weltmeister.html" />
   </ItemGroup>
