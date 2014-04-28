@@ -58,10 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\game\entities\airSource.js" />
+    <Content Include="lib\game\entities\airTank.js" />
+    <Content Include="lib\game\entities\boulder.js" />
     <Content Include="lib\game\entities\diver.js" />
     <Content Include="lib\game\entities\divingBell.js" />
+    <Content Include="lib\game\entities\dynamite.js" />
+    <Content Include="lib\game\entities\gameOver.js" />
+    <Content Include="lib\game\entities\refuge.js" />
     <Content Include="lib\game\entities\scoreTracker.js" />
+    <Content Include="lib\game\entities\shell.js" />
     <Content Include="lib\game\entities\treasure.js" />
+    <Content Include="lib\game\entities\victory.js" />
     <Content Include="lib\game\ui\airMeter.js" />
     <Content Include="lib\plusplus\abilities\ability-damage.js" />
     <Content Include="lib\plusplus\abilities\ability-shoot.js" />
@@ -190,6 +197,18 @@
     <Content Include="lib\weltmeister\api\config.php" />
     <Content Include="lib\weltmeister\api\glob.php" />
     <Content Include="lib\weltmeister\api\save.php" />
+    <Content Include="sfx\boom.ogg" />
+    <Content Include="sfx\coin.ogg" />
+    <Content Include="sfx\death.mp3" />
+    <Content Include="sfx\drop.ogg" />
+    <Content Include="sfx\land.ogg" />
+    <Content Include="sfx\lowair.mp3" />
+    <Content Include="sfx\music.ogg" />
+    <Content Include="sfx\return.ogg" />
+    <Content Include="sfx\select.ogg" />
+    <Content Include="sfx\victory.ogg" />
+    <Content Include="sfx\lowair.ogg" />
+    <Content Include="sfx\death.ogg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -239,9 +258,20 @@
     <Content Include="lib\weltmeister\weltmeister.js" />
     <Content Include="media\04b03.font.png" />
     <Content Include="media\divingbell.png" />
+    <Content Include="media\dynamite.png" />
+    <Content Include="media\gameover.png" />
     <Content Include="media\player.png" />
     <Content Include="media\tiles.png" />
     <Content Include="media\treasure.png" />
+    <Content Include="media\victory.png" />
+    <Content Include="sfx\boom.mp3" />
+    <Content Include="sfx\coin.mp3" />
+    <Content Include="sfx\drop.mp3" />
+    <Content Include="sfx\land.mp3" />
+    <Content Include="sfx\music.mp3" />
+    <Content Include="sfx\return.mp3" />
+    <Content Include="sfx\select.mp3" />
+    <Content Include="sfx\victory.mp3" />
     <Content Include="Web.config" />
     <Content Include="weltmeister.html" />
   </ItemGroup>

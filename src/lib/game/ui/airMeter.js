@@ -10,17 +10,15 @@
 
             backgroundStyle: '',
             fillStyle: 'rgb(150,150,255)',
-            size: {x:  0, y: 0},
-            bar: true,
 
             posAsPct: false,
 
-            setTarget: function (ent) {
-                this.targetEntity = ent;
-                this.barSize = { x: Math.min(ent.energyMax, 30), y: 4 };
-            },
-            
-            init: function(x, y, settings) {
+            size: { x: 0, y: 0},
+
+            init: function (x, y, settings) {
+
+                settings.barSize = { x: Math.min(settings.targetEntity.energyMax, 30), y: 4 }
+
                 this.parent(x, y, settings);
             },
 

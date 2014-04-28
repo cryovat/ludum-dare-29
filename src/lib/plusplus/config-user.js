@@ -27,6 +27,7 @@ ig.module(
             GAME_WIDTH_PCT: 0,
             GAME_HEIGHT_PCT: 0,
 
+            TOP_DOWN: false
 
         };
 
